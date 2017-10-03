@@ -283,7 +283,7 @@
 						<descriptor>src/main/assembly/bin.xml</descriptor>
 					</descriptors>
 				</configuration>
-			</plugin>					
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
@@ -456,6 +456,12 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.6</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.mylyn.github/org.eclipse.egit.github.core -->
+    <dependency>
+     <groupId>org.eclipse.mylyn.github</groupId>
+     <artifactId>org.eclipse.egit.github.core</artifactId>
+     <version>3.1.0.201310021548-r</version>
+    </dependency>
 
 		<!-- Testing dependencies -->
 		<dependency>
@@ -539,4 +545,3 @@
 
 
 </project>
-
